@@ -21,11 +21,17 @@ Install like any other plugin, directly from your plugins page. After installati
 
 = What is Authorized Digital Sellers? =
 
-Please check https://support.google.com/dfp_premium/answer/7441288.
+Authorized Digital Sellers, or ads.txt, is an IAB initiative to improve transparency in programmatic advertising.
+
+For more information, please check https://support.google.com/dfp_premium/answer/7441288.
 
 = Ads.txt file is not writeable, what now? =
 
-You can add the file manually or edit the permissions of the folder. Always be careful with settings permissions. Please check https://codex.wordpress.org/Changing_File_Permissions.
+You can add the file manually or edit the permissions of the folder. Always be careful with setting permissions. For more information, please check https://codex.wordpress.org/Changing_File_Permissions or contact your web host.
+
+== Links ==
+
+*	[Github](https://github.com/jeffreyvr/authorized-digital-sellers-txt)
 
 == Changelog ==
 

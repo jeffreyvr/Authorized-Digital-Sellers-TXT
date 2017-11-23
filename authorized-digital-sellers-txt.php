@@ -6,7 +6,7 @@ Author: jeffreyvr
 Author URI: https://profiles.wordpress.org/jeffreyvr/
 Text Domain: authorized-digital-sellers-txt
 Domain Path: /languages
-Version: 0.1
+Version: 1.0
 License: GPLv2 or later
 */
 
