@@ -3,7 +3,7 @@
   <?php if ( ! is_writable ( $file ) ) : ?>
     <div class="notice notice-warning">
       <p><?php _e( 'Not able to write the ads.txt file in the WordPress root directory. Please add it manually or edit the permissions of the folder.', 'authorized-digital-sellers-txt' ); ?></p>
-      <p><code><?php printf(__('Location: %1$s'), $file ); ?></code></p>
+      <p><code><?php printf(__('Location: %1$s', 'authorized-digital-sellers-txt' ), $file ); ?></code></p>
     </div>
   <?php endif; ?>
 
