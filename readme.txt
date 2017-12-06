@@ -2,16 +2,16 @@
 Contributors: jeffreyvr
 Tags: ads_txt
 Requires at least: 4.3
-Tested up to: 4.9
-Stable tag: 1.0
+Tested up to: 4.9.1
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This is a simple plugin that provides you with the option of making a Authorized Digital Sellers -file (ads.txt) that is placed in the root of your WordPress installation.
+This is a simple plugin that provides you with the option of making a Authorized Digital Sellers -file (ads.txt) that is accesable through your site.com/ads.txt.
 
 == Description ==
 
-This is a simple plugin that provides you with the option of making a Authorized Digital Sellers -file (ads.txt) that is placed in the root of your WordPress installation.
+This is a simple plugin that provides you with the option of making a Authorized Digital Sellers -file (ads.txt) that is accesable through your site.com/ads.txt.
 
 == Installation ==
 
@@ -25,15 +25,21 @@ Authorized Digital Sellers, or ads.txt, is an IAB initiative to improve transpar
 
 For more information, please check https://support.google.com/dfp_premium/answer/7441288.
 
-= Ads.txt file is not writeable, what now? =
+= I already have an ads.txt file, will this plugin still work? =
 
-You can add the file manually or edit the permissions of the folder. Always be careful with setting permissions. For more information, please check https://codex.wordpress.org/Changing_File_Permissions or contact your web host.
+In short: yes. The plugin will rename your ads.txt file in order to prevent conflicts with the plugin. If the file is not renamable due to writability issues you'll have to delete (or rename) it yourself.
+
+If the initial file is renamed you can choose to delete it.
 
 == Links ==
 
 *	[Github](https://github.com/jeffreyvr/authorized-digital-sellers-txt)
 
 == Changelog ==
+
+=1.1=
+* Now reads ads.txt-contents from plugin option instead of having a physical file in the root (prevents writability issues).
+* Renames ads.txt if it already exists to prevent conflicts with the plugin.
 
 = 1.0 =
 * Init release.
